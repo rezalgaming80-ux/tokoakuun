@@ -130,6 +130,6 @@ contactForm?.addEventListener("submit", async (event) => {
     formStatus.textContent = "Sinyal terkirim. Terima kasih!";
   } catch (error) {
     formStatus.textContent =
-      "Sinyal belum terkirim. Coba lagi beberapa saat lagi.";
+      "Sinyal belum terkirim. coba beberapa saat lagi.";
   }
 });
